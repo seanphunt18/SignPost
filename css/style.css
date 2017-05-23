@@ -6,6 +6,10 @@ http://www.templatemo.com/tm-479-sigma
 
 */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -25,24 +29,58 @@ h3 {
 	padding-top: 10px;
 }
 
+.icon {
+	max-width: 100px;
+	color: #70C041;
+}
+
+.btn-theme {
+	background-color: #70C041;
+	color: white;
+}
+
+footer a {
+	color: #70C041;
+}
+
+#search {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#home {
+	margin-top: 40px;
+}
+
+.help-text {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.help-text p {
+	padding-top: 10px;
+}
+
+.result-divider {
+	padding-bottom: 20px;
+}
+
 .js-query {
+	margin: 15px 10px 15px 0;
+}
+
+.js-search-form {
+	display: inline-block;
+}
+
+button {
 	display: block;
-	margin: 10px 0;
 }
 
 .js-search-results {
 	margin-top: 50px;
 }
 
-.hidden {
-	display: none;
-}
-
-.result-card {
-	max-width: 300px;
-	max-height: 300px;
-	display: inline;
-}
 
 /*Template*/
 
@@ -85,9 +123,9 @@ h3 {
 	text-align: right;
 }
 
-.main-menu {
+/*.main-menu {
 	margin-top: 60px;
-}
+}*/
 
 .navbar {
 	float: right;
